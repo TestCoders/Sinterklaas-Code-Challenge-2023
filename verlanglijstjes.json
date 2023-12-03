@@ -1,0 +1,86 @@
+[
+    {
+        "group": "Familie",
+        "groupId": 684893,
+        "wishlist": [
+            {
+                "name": "Lego wagen",
+                "price": 11.99,
+                "id": 849,
+                "willBeBought": false
+            },
+            {
+                "name": "Play-Doh stapel klei",
+                "price": 14.99,
+                "id": 6934,
+                "willBeBought": false
+            },
+            {
+                "name": "Neushaartrimmer",
+                "price": 19.99,
+                "id": 3795,
+                "willBeBought": false
+            }
+        ]
+    },
+    {
+        "group": "Mijn homies",
+        "groupId": 36385,
+        "wishlist": [
+            {
+                "name": "Speciaalbier pakket",
+                "price": 18.99,
+                "id": 85934,
+                "willBeBought": false
+            },
+            {
+                "name": "Neushaartrimmer",
+                "price": 19.99,
+                "id": 3795,
+                "willBeBought": false
+            },
+            {
+                "name": "Kerstversiering - Blote Kerstman",
+                "price": 8.49,
+                "id": 9583,
+                "willBeBought": false
+            },
+            {
+                "name": "Magnum fles bubbels",
+                "price": 21.79,
+                "id": 374594,
+                "willBeBought": false
+            }
+        ]
+    },
+    {
+        "group": "Collegae",
+        "groupId": 794828,
+        "wishlist": [
+            {
+                "name": "Neushaartrimmer",
+                "price": 19.99,
+                "id": 3795,
+                "willBeBought": false
+            },
+            {
+                "name": "Laptoptas",
+                "price": 25.67,
+                "id": 295969,
+                "willBeBought": false
+            },
+            {
+                "name": "Play-Doh stapel klei",
+                "price": 14.99,
+                "id": 6934,
+                "willBeBought": false
+            },
+            {
+                "name": "Magnum fles bubbels",
+                "price": 21.79,
+                "id": 374594,
+                "willBeBought": false
+            }
+        ]
+    }
+]
