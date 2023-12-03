@@ -1,6 +1,6 @@
 [
     {
-        "group": "Familie",
+        "groupName": "Familie",
         "groupId": 684893,
         "wishlist": [
             {
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "group": "Mijn homies",
+        "groupName": "Mijn homies",
         "groupId": 36385,
         "wishlist": [
             {
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "group": "Collegae",
+        "groupName": "Collegae",
         "groupId": 794828,
         "wishlist": [
             {
