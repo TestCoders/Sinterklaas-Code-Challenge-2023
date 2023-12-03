@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Services.Models
+﻿namespace Services.Models
 {
     public class Group
     {
-        public string Name { get; set; }
+        public string GroupName { get; set; }
         public int GroupId { get; set; }
-        public List<Wishlist> Wishlist { get; set; }
+        public List<Product> Wishlist { get; set; }
     }
 }
