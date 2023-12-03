@@ -1,6 +1,6 @@
 <h1>Welkom bij de TestCoders Sinterklaas Code Challenge 2023!</h1>
 
-<h4>In deze code challenge, gaan we een stukje functionaliteit nabouwen die wordt gebruikt door lootjestrekken.nl. Het gaat als volgt:
+<h4>In deze code challenge, gaan we een stukje functionaliteit nabouwen dat wordt gebruikt door lootjestrekken.nl. Het gaat als volgt:
 Klaas-Piet is een populaire jongen, en heeft de verplichting gekregen om mee te doen met lootjes trekken in 3 groepen, namelijk: Zijn familie, vrienden en collega's. Hij heeft daardoor 3 verlanglijstjes moeten opmaken.
 
 Lootjestrekken.nl biedt een functionaliteit dat het zelfde cadeau als 'wordt gehaald' of 'wordt gekocht' kenmerkt over al je verlanglijstjes, indien 1 persoon aanvinkt dat deze het specifieke cadeau gaat halen.
