@@ -7,7 +7,7 @@ namespace Services
         public void UpdateWishLists(List<Group> groups, int itemId)
         {
             var groupsToUpdate = groups.FindAll(g => g.Wishlist.Any(p => p.Id == itemId));
-            groupsToUpdate.ForEach(g => g.Wishlist.ForEach(p => p.WillBeBought = true));
+            groupsToUpdate.ForEach(g => g.Wishlist.Where(p => p.Id == itemId).ToList().ForEach(p => p.WillBeBought = true));
         }
     }
 }
