@@ -20,6 +20,10 @@ namespace Services.Tests
             Assert.IsTrue(verlanglijstjesKlaasPiet[0].Wishlist[2].WillBeBought);
             Assert.IsTrue(verlanglijstjesKlaasPiet[1].Wishlist[1].WillBeBought);
             Assert.IsTrue(verlanglijstjesKlaasPiet[2].Wishlist[0].WillBeBought);
+
+            Assert.IsTrue(verlanglijstjesKlaasPiet[0].Wishlist.All(p => p.WillBeBought == false || p.Id == 3795));
+            Assert.IsTrue(verlanglijstjesKlaasPiet[1].Wishlist.All(p => p.WillBeBought == false || p.Id == 3795));
+            Assert.IsTrue(verlanglijstjesKlaasPiet[2].Wishlist.All(p => p.WillBeBought == false || p.Id == 3795));
         }
 
         [TestMethod]
@@ -32,6 +36,10 @@ namespace Services.Tests
 
             Assert.IsTrue(verlanglijstjesKlaasPiet[0].Wishlist[1].WillBeBought);
             Assert.IsTrue(verlanglijstjesKlaasPiet[2].Wishlist[2].WillBeBought);
+
+            Assert.IsTrue(verlanglijstjesKlaasPiet[0].Wishlist.All(p => p.WillBeBought == false || p.Id == 6934));
+            Assert.IsTrue(verlanglijstjesKlaasPiet[1].Wishlist.All(p => p.WillBeBought == false));
+            Assert.IsTrue(verlanglijstjesKlaasPiet[2].Wishlist.All(p => p.WillBeBought == false || p.Id == 6934));
         }
     }
 }
