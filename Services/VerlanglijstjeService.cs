@@ -6,13 +6,8 @@ namespace Services
     {
         public void UpdateWishLists(List<Group> groups, int itemId)
         {
-            var products = groups.Select(g => g.Wishlist.First(p => p.Id == itemId)).ToList();
-            products.ForEach(p => UpdateWillBeBought(p));
-        }
-
-        private void UpdateWillBeBought(Product product)
-        {
-            product.WillBeBought = true;
+            var groupsToUpdate = groups.FindAll(g => g.Wishlist.Any(p => p.Id == itemId));
+            groupsToUpdate.ForEach(g => g.Wishlist.ForEach(p => p.WillBeBought = true));
         }
     }
 }
